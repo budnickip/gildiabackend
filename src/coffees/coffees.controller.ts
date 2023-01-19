@@ -43,7 +43,7 @@ export class CoffeesController {
   }
 
   @Post()
-  // dzieki decoratorowi body, otrzymamy wszystko co przychodzi
+  // dzieki decoratorowi body otrzymamy wszystko co przychodzi
   // w body
   // dzieki CreateCoffeeDto mamy type safety i wiemy czego mozemy sie
   // spodziewac po payloadzie
